@@ -1,7 +1,7 @@
 import React from "react";
-import Stopwatch from './components/stopwatch.js';
+import Stopwatch from './stopwatch.js';
 
-const App = () => {
+const App = (props) => {
   return (
     <div className="container">
       <h1 className="text-center">Stopwatch</h1>
